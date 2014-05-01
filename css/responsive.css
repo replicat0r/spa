@@ -1,0 +1,121 @@
+/* Tablet (Portrait) */
+/* Width of 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+.jqueryslidemenu, #container, #content > ul > li  {
+ width:748px;
+}
+
+/* Logo section
+----------------------------------------*/
+.logo {
+	margin-bottom:30px;
+	
+}
+.logo h1 a, .logo h1 a:visited{
+	font-size:2em;
+}
+/* portfolio slider
+----------------------------------------*/
+span#controls {left:87.4%;}
+}
+
+/* Mobile Potrait width 320 */
+@media only screen and (max-width: 767px) {
+.jqueryslidemenu, #container, #content > ul > li, #slider, #slider li, .contact_info  {
+ width:300px;
+}
+/* portfolio slider
+----------------------------------------*/
+span#controls {left:68.5%;}
+
+#slider, #slider li{
+ width:260px;
+}
+
+#content > ul > li img  {
+min-width:100%;
+}
+
+
+body{
+	overflow-y:auto;
+}
+
+.logo {
+	margin-bottom:20px;
+	
+}
+.logo h1 a, .logo h1 a:visited{
+	font-size:1.2em;
+	display:block;
+	text-align:center;
+	line-height:30px;
+}
+
+.contact_info{
+	margin:0px auto;
+	padding-top:30px;
+	width:100%;
+	display:block;
+	text-align:center;
+	background-image:none;
+	padding-left:0px;
+	position:static;
+	
+}
+.contact_info h3{
+font-size:2em;
+line-height:20px;
+}
+/* Menu section
+----------------------------------------*/
+.menu {
+ margin:0 auto;
+ clear:both;
+ margin-top:20px;
+ background-color:transperant;}
+
+.menu ul {
+ display:none;
+}
+.menu {
+ width:96%;
+ padding:2%;
+}
+.menu select {
+ display: block;
+ width:100%;
+ background-color: #f9f9f9;
+ border:none;
+ border:1px solid #fff;
+ margin:0 auto;
+ padding:5px 0px;
+}
+ .menu select option {
+ padding-bottom:3px;
+}
+
+
+
+/* Columns
+----------------------------------------*/
+.one_half, .one_half_last, .one_third, .one_third_last, .two_third, .two_third_last, .one_fourth, .one_fourth_last, .two_fourth, .two_fourth_last, .three_fourth, .three_fourth_last, .one_fifth, .one_fifth_last, .two_fifth, .two_fifth_last, .three_fifth, .three_fifth_last, .four_fifth, .four_fifth_last, #pricing_table .one_third, #pricing_table .one_fourth{
+ width: 100%;
+margin: 0 0 30px;
+}
+}
+
+/* Mobile landscape width 480 */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.jqueryslidemenu, #container, #content > ul > li, #slider, #slider li, .contact_info {
+ width:460px;
+}
+/* portfolio slider
+----------------------------------------*/
+span#controls {left:79.5%;}
+
+#slider, #slider li{
+ width:420px;
+}
+}

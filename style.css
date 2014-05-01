@@ -5,7 +5,7 @@ body {
 	margin: 0;
 	padding: 0;
 	color:#808080;
-	overflow: hidden;
+	overflow: auto;
 	background-color:#101010;
 }
 p, ul, ol, dl, table, fieldset, blockquote, pre, code {

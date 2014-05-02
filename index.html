@@ -16,6 +16,8 @@
         <link rel="stylesheet" type="text/css" href="css/jqueryslidemenu.css" />
         <link href="css/sudo.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" type="text/css" href="css/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+                <link href="css/tab.css" rel="stylesheet" type="text/css" />
+
         <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
         <script type="text/javascript" src="js/jquery.easing.min.js"></script>
         <script type="text/javascript" src="js/supersized.3.2.7.js"></script>
@@ -40,6 +42,20 @@
                 width: 400px;
                 height: 350px;
                 background-color: #CCC;
+            }
+         
+           
+            
+     .cover img{
+      opacity: 0.70;   
+         -webkit-transition: all 0.3s ease;
+     -moz-transition: all 0.3s ease;
+       -o-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+     }
+             .cover img:hover {
+                 opacity: 1;
             }
         </style>
     </head>
@@ -74,7 +90,13 @@
                                     <a href="#pgServices">Services</a>
                                 </li>
                                 <li>
-                                    <a href="#pgPrices">Packages</a>
+                                    <a href="#package">Packages</a>
+                                </li>
+                                <li>
+                                    <a href="#Price">Prices</a>
+                                </li>
+                                <li>
+                                    <a href="#Book">Book with us</a>
                                 </li>
                                 <li>
                                     <a href="#pgContact">Contact Us</a>
@@ -86,7 +108,7 @@
                 <div class="clear"></div>
                 <div class="intro">
                     <h1>Come have
-                        <span>Relaxing</span> day with us...</h1>
+                        <span>Relaxing</span>day with us...</h1>
                     <h4>It is a dream world which combines effective treatments and taste for true values, an integrated program of body, skin and hair care essential techniques which relax the spirit and harmonize the figure, regenerate the skin and prolong its youth.</h4>
                     <h4>The Spa Ngapali is exclusively devoted to beauty, rejuvenation and relaxation for both women and men.</h4>
                 </div>
@@ -123,7 +145,7 @@
                     <!-- Services content Start -->
                     <li id="pgServices">
                         <div class="close_panel"></div>
-                        <section class="content mainmenu">
+                        <section class="content mainmenu cover">
                             <h2>SERVICES</h2>
                             <p>We provide the variety of hair and spa services. A wide range of hair and spa products are also available onsite. Moreover, we offer different set of spa packages and also gift certificate for flexibility. Select one of the option below to learn more!</p>
                             <div class="one_third ">
@@ -131,6 +153,7 @@
                                 <li>
                                     <a href="#pgSpa">
                                         <img src="images/spa.jpg" alt="Spa Treatment" class="space" />
+
                                     </a>
                                 </li>
                                 <p>Here at Spa Ngapali , we strive to offer our clients a quiet and comfortable environment in which they can enjoy services to relax the body, calm the mind and soothe the soul.Rejuvenating and nurturing treatments that use healing touch and plant powered ingredients to create inner calm and renew the skin of the body, our service includes manicure, pedicure, facial, exfoliation, waxing etc.</p>
@@ -166,18 +189,19 @@
                                 <h4>DISCOVERY NEW YOUTH FACIAL</h4>
                                 <p>Cleansing and misting is followed by the application of the Clayton Shagal Double lifting Sequence Serum and a high frequency treatment. This treatment is ideal for acne or stressed tired skin. There is an immediate smoothing firming effect, leaving the skin looking youthful and restored. (1 hour)</p>
                                 <h4>RELAXING FACIAL</h4>
-                                <p>This relaxing treatment starts with a cleansing, misting and gentle massage of the face, neck and shoulders with Mary Cohr Relaxing massage cream. A deeply hydrating cream mask is applied, leaving the features relaxed and the skin soft, supple and dehydrated. (55 minutes)
-                                    <p>
-                                        <h4>MICRO-DERMABRASION</h4>
-                                        <p>Micro controlled peeling, gently removes epidermal cells to treat a vast range of the skin imperfections. It’s especially effective for skin aging. The powerful peeling action triggers the skin’s repair mechanism to produce healthy epidermal tissue growth, improving skin tone and elasticity.</p>
+                                <p>This relaxing treatment starts with a cleansing, misting and gentle massage of the face, neck and shoulders with Mary Cohr Relaxing massage cream. A deeply hydrating cream mask is applied, leaving the features relaxed and the skin soft, supple and dehydrated. (55 minutes)</p>
+                                       
                             </div>
                             <div class="one_half_last">
-                              <h4>Waxing</h4>
+                                <h4>Waxing</h4>
                                 <p>We offer a full range of waxing services, such as eyebrow, or lips, to half and full body. Waxing leaves your skin with a bright, smooth, soft and clear appearance. Hair regrowth is slower and is finer and lighter in color.</p>
                                 <h4>MANICURE AND PEDICURE</h4>
                                 <p>Wonderful, enjoyable fingernail and toenail treatment. Includes a herbal soak, scrub, filing and shaping of the nails, cuticle work, moisturizing massage and the application of nail buff for healthy hands and feet.</p>
                                 <h4>BODY WRAP</h4>
                                 <p>Enjoy beautiful, soft and deeply hydrated skin as a result of this deeply relaxing treatment. This treatment allows the speeding up of the elimination of toxins from the body, while providing a comforting relaxing atmosphere for you to relax and enjoy. It provides you with healthy, breathable skin as surface and internal impurities are removed.</p>
+                             <h4>MICRO-DERMABRASION</h4>
+                                        <p>Micro controlled peeling, gently removes epidermal cells to treat a vast range of the skin imperfections. It’s especially effective for skin aging. The powerful peeling action triggers the skin’s repair mechanism to produce healthy epidermal tissue growth, improving skin tone and elasticity.</p>
+                                
                             </div>
                         </section>
                     </li>
@@ -234,8 +258,8 @@
                         </section>
                     </li>
                     <!-- Services content end -->
-                    <!-- pgPrices content Start -->
-                    <li id="pgPrices">
+                    <!-- package content Start -->
+                    <li id="package">
                         <div class="close_panel"></div>
                         <section class="content">
                             <h2>For your special day off..</h2>
@@ -293,6 +317,178 @@
                                     <td class="second_column">1 hr</td>
                                 </tr>
                             </table>
+                        </section>
+                    </li>
+                    <li id="Price">
+                        <div class="close_panel"></div>
+                        <section class="content">
+                            <h2>Prices</h2>
+                            
+                            
+                            
+                            <div class="sky-tabs sky-tabs-pos-left sky-tabs-anim-flip sky-tabs-response-to-icons">
+				<input type="radio" name="sky-tabs" checked id="sky-tab1" class="sky-tab-content-1">
+				<label for="sky-tab1"><span><span><i class="fa fa-bolt"></i>Massage Treatments</span></span></label>
+				
+				<input type="radio" name="sky-tabs" id="sky-tab2" class="sky-tab-content-2">
+				<label for="sky-tab2"><span><span><i class="fa fa-picture-o"></i>Waxing</span></span></label>
+				
+				<input type="radio" name="sky-tabs" id="sky-tab3" class="sky-tab-content-3">
+				<label for="sky-tab3"><span><span><i class="fa fa-cogs"></i>Einstein</span></span></label>
+				
+				<input type="radio" name="sky-tabs" id="sky-tab4" class="sky-tab-content-4">
+				<label for="sky-tab4"><span><span><i class="fa fa-globe"></i>Newton</span></span></label>
+				
+				<ul>
+					<li class="sky-tab-content-1">					
+						<table class="price_table">
+                                    <tr>
+                                        <th class="first_column">Our Spa Treatment</th>
+                                        <th class="second_column">Cost</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="first_column">30 Min Treatment</td>
+                                        <td class="second_column">$50</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first_column">45 Min Treatment</td>
+                                        <td class="second_column">$60</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first_column">60 Min Treatment</td>
+                                        <td class="second_column">$75</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first_column">90 Min Treatment</td>
+                                        <td class="second_column">$120</td>
+                                    </tr>
+                                </table>
+					</li>
+					
+					<li class="sky-tab-content-2">
+						<div class="typography">
+							<table class="price_table">
+                                    <tr>
+                                        <th class="first_column">Waxing Services</th>
+                                        <th class="second_column">Cost</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="first_column">Chin, Upper Lip or Eyebrow</td>
+                                        <td class="second_column">$15</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first_column">Bikini or Underarm</td>
+                                        <td class="second_column">$20</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first_column">Half leg or Half Arm</td>
+                                        <td class="second_column">$30</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first_column">Full Face</td>
+                                        <td class="second_column">$40</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first_column">Brazilian or Full leg</td>
+                                        <td class="second_column">$50</td>
+                                    </tr>
+                                </table>
+						</div>
+					</li>
+					
+					<li class="sky-tab-content-3">
+						<div class="typography">
+							<h1>Albert Einstein</h1>
+							<p>German-born theoretical physicist who developed the general theory of relativity, one of the two pillars of modern physics (alongside quantum mechanics). While best known for his mass–energy equivalence formula E = mc2 (which has been dubbed "the world's most famous equation"), he received the 1921 Nobel Prize in Physics "for his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect". The latter was pivotal in establishing quantum theory.</p>
+							<p>Near the beginning of his career, Einstein thought that Newtonian mechanics was no longer enough to reconcile the laws of classical mechanics with the laws of the electromagnetic field. This led to the development of his special theory of relativity. He realized, however, that the principle of relativity could also be extended to gravitational fields, and with his subsequent theory of gravitation in 1916, he published a paper on the general theory of relativity.</p>
+							<p>He continued to deal with problems of statistical mechanics and quantum theory, which led to his explanations of particle theory and the motion of molecules. He also investigated the thermal properties of light which laid the foundation of the photon theory of light. In 1917, Einstein applied the general theory of relativity to model the large-scale structure of the universe.</p>
+							<p class="text-right"><em>Find out more about Albert Einstein from <a href="http://en.wikipedia.org/wiki/Albert_Einstein" target="_blank">Wikipedia</a>.</em></p>
+						</div>
+					</li>
+					
+					<li class="sky-tab-content-4">
+						<div class="typography">
+							<h1>Isaac Newton</h1>
+							<p>English physicist and mathematician who is widely regarded as one of the most influential scientists of all time and as a key figure in the scientific revolution. His book Philosophiæ Naturalis Principia Mathematica ("Mathematical Principles of Natural Philosophy"), first published in 1687, laid the foundations for most of classical mechanics. Newton also made seminal contributions to optics and shares credit with Gottfried Leibniz for the invention of the infinitesimal calculus.</p>
+							<p>Newton's Principia formulated the laws of motion and universal gravitation that dominated scientists' view of the physical universe for the next three centuries. It also demonstrated that the motion of objects on the Earth and that of celestial bodies could be described by the same principles. By deriving Kepler's laws of planetary motion from his mathematical description of gravity, Newton removed the last doubts about the validity of the heliocentric model of the cosmos.</p>
+							<p class="text-right"><em>Find out more about Isaac Newton from <a href="http://en.wikipedia.org/wiki/Isaac_Newton" target="_blank">Wikipedia</a>.</em></p>
+						</div>
+					</li>					
+				</ul>
+			</div>
+                            
+<!--
+                            <div class="one_half">
+                                <table class="price_table">
+                                    <tr>
+                                        <th class="first_column">Our Spa Treatment</th>
+                                        <th class="second_column">Cost</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="first_column">30 Min Treatment</td>
+                                        <td class="second_column">$50</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first_column">45 Min Treatment</td>
+                                        <td class="second_column">$60</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first_column">60 Min Treatment</td>
+                                        <td class="second_column">$75</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first_column">90 Min Treatment</td>
+                                        <td class="second_column">$120</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="one_half_last">
+                                <table class="price_table">
+                                    <tr>
+                                        <th class="first_column">Waxing Services</th>
+                                        <th class="second_column">Cost</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="first_column">Chin, Upper Lip or Eyebrow</td>
+                                        <td class="second_column">$15</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first_column">Bikini or Underarm</td>
+                                        <td class="second_column">$20</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first_column">Half leg or Half Arm</td>
+                                        <td class="second_column">$30</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first_column">Full Face</td>
+                                        <td class="second_column">$40</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="first_column">Brazilian or Full leg</td>
+                                        <td class="second_column">$50</td>
+                                    </tr>
+                                </table>
+                            </div>
+-->
+                        </section>
+                    </li>
+                    
+                    
+                    <li id="Book">
+                        <div class="close_panel"></div>
+                        <section class="content">
+                            <div class="one_half">
+                                <h2>Welcome</h2>
+                                <img src="images/about.jpg" alt="Spa Ngapali" class="space" />
+                            </div>
+                            <div class="one_half_last">
+                                <h2>ABOUT US</h2>
+                                <p>It is a dream world which combines effective treatments and taste for true values, an integrated program of body, skin and hair care essential techniques which relax the spirit and harmonize the figure, regenerate the skin and prolong its youth.</p>
+                                <p>The Spa Ngapali is exclusively devoted to beauty, rejuvenation and relaxation for both women and men.</p>
+                                <p>The Spa Ngapali is located on Woodroffe Avenue near Algonquin College in the Canada's capital city, Ottawa. In our newly gorgeously renovated building, the main floor is dedicated for hair beauty and design, meanwhile the lower level is fully equipped for spa to pamper you from head to toe spectacularly.</p>
+                                <p>We provide the variety of hair and spa services. A wide range of hair and spa products are also available onsite. Moreover, we offer different set of spa packages and also gift certificate for flexibility. Please come to visit alone or with friend to create an unforgettable sweet memory at our spa!</p>
+                            </div>
                         </section>
                     </li>
                     <li id="pgContact">

@@ -682,6 +682,7 @@
 		width: 45px;
 		margin: 0;
 		font-size: 16px;
+             background-image: url(images/icon-massage.png);   
 	}
 	.sky-tabs-response-to-icons > label span span {
 		padding: 0;

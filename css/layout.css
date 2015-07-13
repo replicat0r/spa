@@ -41,15 +41,15 @@
 
 }
 .one_fourth {
-	width:22.15%;
+	width:23.15%;
 	float:left;
-	margin-right:3.80%;
+	margin-right:2.40%;
 	margin-bottom:20px;
-	background-color:#006600;
+/*	background-color:#006600;*/
 
 }
 .one_fourth_last {
-	width:22.15%;
+	width:23.15%;
 	float:right;
 	margin-bottom:20px;
 }

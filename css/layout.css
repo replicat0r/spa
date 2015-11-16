@@ -108,3 +108,46 @@
 	height: 0;
 }
 
+#acup{
+        background-image: url(../images/acupuncture.jpg);
+    display: block;
+    height: 148px;
+    background-size: contain;
+}
+
+#micro{
+       background-image: url(../images/micro.jpg);
+    display: block;
+    height: 148px;
+    background-size: contain;
+}
+
+#waxs{
+       background-image: url(../images/wax.jpg);
+    display: block;
+    height: 148px;
+    background-size: contain;
+}
+
+#hairs{
+       background-image: url(../images/hair.jpg);
+    display: block;
+    height: 148px;
+    background-size: contain;
+}
+#acup2{
+     background-image: url(../images/acupuncture2.jpg);
+    display: block;
+    height: 25vh;
+    background-size: cover;
+
+}
+
+footer{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+    color:white;
+}
